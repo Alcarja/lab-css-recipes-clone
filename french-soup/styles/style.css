@@ -7,3 +7,93 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h2 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.banner {
+  height: 360px;
+  background-image: url(../images/soup.jpg);
+  margin-bottom: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  padding-top: 170px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid black;
+}
+
+.section p {
+  padding-bottom: 2rem;
+}
+
+.section-1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 3rem;
+}
+
+ul {
+list-style: armenian ;
+}
+
+ul.dashed {
+  list-style-type: "-";
+}
+
+ul.dashed > li {
+  text-indent: -5px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+.section-2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 3rem;
+}
+
+.section-3 {
+  border: none;
+}
+
+ol {
+  padding-left: 40px;
+  counter-reset: list;
+}
+
+
+ol > li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}

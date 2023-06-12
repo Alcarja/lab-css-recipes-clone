@@ -28,7 +28,7 @@ h1 {
 }
 .banner {
   height: 450px;
-  background-image: url(/images/apple-pie.jpg);
+  background-image: url(../images/apple-pie.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +85,7 @@ h2 {
 
 ul {
   padding-left: 40px;
-  list-style: armenian;
+  list-style:inside;
 }
 ul.dashed {
   list-style-type: none;
