@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
@@ -22,3 +23,93 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1 {
+  font-size: 4rem;;
+}
+.banner {
+  height: 450px;
+  background-image: url(/images/apple-pie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 180px;
+  margin-bottom: 3rem;
+}
+.banner h1 {
+  color: white;
+}
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+
+}
+.section-1 {
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 65px;
+  margin-bottom: 1rem;
+}
+
+.section-2 {
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+}
+
+h2 {
+  font-size: 18px;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.photo-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.section-2 ul {
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding-left: 40px;
+  list-style: armenian;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+ol {
+  padding-left: 40px;
+  counter-reset: list;
+}
+
+
+ol > li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
